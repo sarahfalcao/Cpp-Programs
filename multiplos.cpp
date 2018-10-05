@@ -8,33 +8,14 @@ int main(int argc, char const *argv[])
 
 	cin >> a >> b;
 
-	if (a>b) {
+	if (b%a == 0 || a%b == 0) {
 
-		if (a%b == 0) {
-		
-		cout << "Sao Multiplos";
-		}
-
-		else {
-
-		cout << "Nao sao Multiplos";
-		}
-
-		
+		cout << "Sao Multiplos" << endl;
 	}
 
-	if (b>a) {
+	else {
 
-		if (b%a == 0) {
-
-		cout << "Sao Multiplos";
-		}
-
-		else {
-
-		cout << "Nao sao Multiplos";
-		}
-
+		cout << "Nao sao Multiplos" << endl;
 	}
 
 
