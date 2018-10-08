@@ -1,3 +1,4 @@
+//https://br.spoj.com/problems/COLISAO7/
 #include <iostream>
 using namespace std;
 
@@ -10,7 +11,10 @@ int main(int argc, char const *argv[])
 	cin >> q1x0 >> q1y0 >> q1x1 >> q1y1:
 	cin >> q2x0 >> q2y0 >> q2x1 >> q2y1;
 
-	
+	if (q1x1 < q2x0) {
+
+
+	} 
 
 	return 0;
-}
+}  
